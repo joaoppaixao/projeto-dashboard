@@ -11,16 +11,18 @@ body, html {
 }
 
 .main-container {
-    
+    text-align: center;
 }
 
 .main-container h1 {
-    padding: 15px;
+    padding: 25px;
     text-align: center;
 }
 
 .dash-container {
     display: flex;
+    justify-content: center;
+    height: 100;
 }
 
 .notes-container {
@@ -30,18 +32,41 @@ body, html {
 .dash {
     margin: 15px;
     border: 2px solid black;
-    width: 100px;
-    height: 100px;
+    border-radius: 8px;
+    width: 200px;
+    height: 200px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     color: black;
+    background-color: white;
     transition: 0.5s;
 }
 
 .dash:hover {
     background-color: rgba(131, 131, 131, 0.381);
     
+}
+
+.main-container .button {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.main-container .button:hover {
+    background-color: darkblue;
+}
+
+.button a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
 }

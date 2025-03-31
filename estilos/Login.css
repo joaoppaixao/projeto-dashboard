@@ -30,6 +30,13 @@ button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 button:hover {
     background: darkblue;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
