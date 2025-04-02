@@ -11,12 +11,31 @@ body, html {
 }
 
 .main-container {
-    text-align: center;
+    
 }
 
 .main-container h1 {
     padding: 25px;
     text-align: center;
+}
+
+.nav-bar {
+    padding: 10px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.312);
+}
+
+.nav-bar > a {
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 0.5;
+}
+
+.nav-bar > a:hover {
+    background-color: darkgray;
+    transition: 0.5s;
 }
 
 .dash-container {
@@ -50,23 +69,3 @@ body, html {
     
 }
 
-.main-container .button {
-    width: 100px;
-    height: 30px;
-    margin-bottom: 50px;
-    cursor: pointer;
-    background-color: blue;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.main-container .button:hover {
-    background-color: darkblue;
-}
-
-.button a {
-    color: white;
-    font-weight: bolder;
-    text-decoration: none;
-}
